@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------
 // バージョン
-const CACHE_VERSION = '1.5.9';
+const CACHE_VERSION = '2.0.0';
 
 // キャッシュの名前（このまま）
 const CACHE_NAME = `${registration.scope}!${CACHE_VERSION}`;
@@ -9,6 +9,7 @@ const CACHE_NAME = `${registration.scope}!${CACHE_VERSION}`;
 const urlsToCache = [
   'wnako3/wnako3.js',
   'wnako3/plugin_turtle.js',
+  'wnako3/plugin_datetime.js',
   'wnako3/LICENSE',
   '.',
   'wadokei_data.json',
